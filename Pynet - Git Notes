@@ -1,0 +1,44 @@
+# Git Clone
+git clone https://github.com/clurdaneta/pynet_neteng
+git clone git@github.com:clurdaneta/pynet_neteng.git
+
+# Git Add
+# Whatever file/directory you create and want to add to commit
+git add foo
+git add var/
+
+# Git commit
+# Only affects local copy. (Save Button)g
+git commit -m "Whatever you would like to do here"
+
+# Git Push
+# origin is just an alias for fetch/push --> git origin -v  ( to see alias )
+git push origin master
+
+# Git Pull
+# origin is just an alias for fetch/push --> git origin -v  ( to see alias )
+git pull origin master
+
+# Git does not Diff files, it keeps a copy for every change.
+# It creates an object reference in .git/objects
+
+# Git Log
+# Verify commits
+git log
+
+# Git Status
+git status
+
+# Create a branch
+git branch dev
+
+# Checkout Branch
+git checkout dev
+
+# Check branches
+git branch
+
+# Merge Dev branch into Master
+git checkout master
+git merge dev
+git push origin mastergit
